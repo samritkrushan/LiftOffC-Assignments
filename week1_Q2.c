@@ -8,9 +8,13 @@ int main()
     {
         printf("the maximum number is  :  %d" ,a);
     }
-    else
+    if(b>a)
     {
         printf("the maximum number is  :  %d" ,b);
+    }
+    if(a==b)
+    {
+        printf("the values entered are same  %d" ,a);
     }
     return 0;
 }
